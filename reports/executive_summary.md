@@ -6,9 +6,9 @@
 
 | Measure | Value |
 |---|---|
-| Annualised turnover | 18.3% (246 separations) |
-| Absenteeism rate | 1.28% (3.21 days per employee) |
-| Quality of Hire index | 73.8 / 100 |
+| Annualised turnover | 17.5% (237 separations) |
+| Absenteeism rate | 1.25% (3.21 days per employee) |
+| Quality of Hire index | 74.8 / 100 |
 | Average time to fill | 45 days |
 
 ## Research question
@@ -17,28 +17,29 @@ Which workplace factors are most strongly associated with voluntary turnover onc
 
 ## Method
 
-A multivariable logistic regression on 1,470 employees estimates the independent association of each factor with leaving, reported as an odds ratio with a 95 percent confidence interval. Each bivariate relationship is also tested on its own with a chi square test (categorical drivers, Cramer V effect size) or a Welch t test (continuous measures, Cohen d effect size). The model explains a McFadden pseudo R squared of 0.202.
+A multivariable logistic regression on 1,470 employees estimates the independent association of each factor with leaving, reported as an odds ratio with a 95 percent confidence interval. Each bivariate relationship is also tested on its own with a chi square test (categorical drivers, Cramer V effect size) or a Welch t test (continuous measures, Cohen d effect size). The model explains a McFadden pseudo R squared of 0.266.
 
 ## What raises the odds of leaving
 
 | Factor | Odds ratio | 95% CI | p |
 |---|---|---|---|
-| Works overtime | 3.35 | 2.43 to 4.61 | 0.0000 |
-| Single (vs married) | 2.29 | 1.63 to 3.23 | 0.0000 |
-| Years since promotion (per year) | 1.22 | 1.09 to 1.37 | 0.0005 |
-| Prior employers (per company) | 1.15 | 1.03 to 1.28 | 0.0101 |
-| Commute distance (per km) | 1.03 | 1.01 to 1.06 | 0.0012 |
+| Travels frequently | 5.44 | 2.55 to 11.60 | 0.0000 |
+| Works overtime | 5.40 | 3.84 to 7.59 | 0.0000 |
+| Travels rarely | 2.45 | 1.21 to 4.96 | 0.0132 |
+| Single (vs married) | 2.18 | 1.38 to 3.43 | 0.0008 |
+| Years since promotion (per year) | 1.21 | 1.12 to 1.30 | 0.0000 |
+| Prior employers (per company) | 1.15 | 1.07 to 1.23 | 0.0001 |
 
 ## What lowers the odds of leaving
 
 | Factor | Odds ratio | 95% CI | p |
 |---|---|---|---|
-| Work-life balance (per point) | 0.58 | 0.46 to 0.72 | 0.0000 |
-| Job involvement (per point) | 0.69 | 0.56 to 0.84 | 0.0004 |
-| Job satisfaction (per point) | 0.73 | 0.64 to 0.84 | 0.0000 |
-| Environment satisfaction (per point) | 0.78 | 0.68 to 0.90 | 0.0005 |
-| Tenure (per year) | 0.82 | 0.77 to 0.88 | 0.0000 |
-| Monthly income (per $1k) | 0.93 | 0.90 to 0.96 | 0.0001 |
+| Job involvement (per point) | 0.56 | 0.45 to 0.70 | 0.0000 |
+| Environment satisfaction (per point) | 0.69 | 0.59 to 0.80 | 0.0000 |
+| Job satisfaction (per point) | 0.70 | 0.60 to 0.81 | 0.0000 |
+| Work-life balance (per point) | 0.74 | 0.59 to 0.93 | 0.0099 |
+| Tenure (per year) | 0.89 | 0.84 to 0.93 | 0.0000 |
+| Monthly income (per $1k) | 0.91 | 0.86 to 0.97 | 0.0018 |
 
 ## Reading the result through an I-O Psychology lens
 
@@ -48,7 +49,7 @@ The pattern lines up with established turnover theory. Overtime and frequent tra
 
 - Manage overtime load and travel intensity in the roles where both run highest.
 - Watch the first year and the years just after a missed promotion, the windows where exits cluster.
-- Shift sourcing toward the channels with the strongest Quality of Hire (Internal Transfer leads at 78.4) and review the weakest (Recruiting Agency at 69.8).
+- Shift sourcing toward the channels with the strongest Quality of Hire (Internal Transfer leads at 79.5) and review the weakest (Recruiting Agency at 71.1).
 - Use job attitude survey items as an early warning layer, not just an annual snapshot.
 
 ## Limitations

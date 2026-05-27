@@ -1,292 +1,292 @@
 {
   "kpis": {
-    "annualised_turnover_pct": 18.3,
-    "separations": 246,
-    "active_headcount": 1224,
-    "absenteeism_rate_pct": 1.28,
+    "annualised_turnover_pct": 17.5,
+    "separations": 237,
+    "active_headcount": 1233,
+    "absenteeism_rate_pct": 1.25,
     "avg_absence_days": 3.21,
-    "quality_of_hire": 73.8,
+    "quality_of_hire": 74.8,
     "avg_time_to_fill_days": 45.0,
     "best_source": {
       "channel": "Internal Transfer",
-      "qoh": 78.4
+      "qoh": 79.5
     },
     "worst_source": {
       "channel": "Recruiting Agency",
-      "qoh": 69.8
+      "qoh": 71.1
     }
   },
   "continuous_tests": [
     {
       "feature": "Tenure (years)",
-      "mean_leavers": 3.76,
-      "mean_stayers": 5.5,
-      "cohens_d": -0.503,
-      "effect": "medium",
-      "p_value": 0.0,
-      "significant": true
-    },
-    {
-      "feature": "Age",
-      "mean_leavers": 33.65,
-      "mean_stayers": 37.27,
-      "cohens_d": -0.411,
+      "mean_leavers": 5.09,
+      "mean_stayers": 7.86,
+      "cohens_d": -0.455,
       "effect": "small",
       "p_value": 0.0,
       "significant": true
     },
     {
       "feature": "Monthly income",
-      "mean_leavers": 5746.76,
-      "mean_stayers": 6861.86,
-      "cohens_d": -0.233,
+      "mean_leavers": 4787.09,
+      "mean_stayers": 6832.74,
+      "cohens_d": -0.44,
       "effect": "small",
-      "p_value": 0.00042,
+      "p_value": 0.0,
+      "significant": true
+    },
+    {
+      "feature": "Age",
+      "mean_leavers": 33.61,
+      "mean_stayers": 37.56,
+      "cohens_d": -0.438,
+      "effect": "small",
+      "p_value": 0.0,
       "significant": true
     },
     {
       "feature": "Commute distance (km)",
-      "mean_leavers": 9.84,
-      "mean_stayers": 8.43,
-      "cohens_d": 0.2,
-      "effect": "negligible",
-      "p_value": 0.00962,
-      "significant": true
-    },
-    {
-      "feature": "Prior employers",
-      "mean_leavers": 2.26,
-      "mean_stayers": 2.01,
-      "cohens_d": 0.184,
-      "effect": "negligible",
-      "p_value": 0.01329,
+      "mean_leavers": 10.63,
+      "mean_stayers": 8.92,
+      "cohens_d": 0.212,
+      "effect": "small",
+      "p_value": 0.00414,
       "significant": true
     },
     {
       "feature": "Training sessions last year",
-      "mean_leavers": 2.43,
-      "mean_stayers": 2.52,
-      "cohens_d": -0.064,
+      "mean_leavers": 2.62,
+      "mean_stayers": 2.83,
+      "cohens_d": -0.162,
       "effect": "negligible",
-      "p_value": 0.36489,
+      "p_value": 0.02036,
+      "significant": true
+    },
+    {
+      "feature": "Prior employers",
+      "mean_leavers": 2.94,
+      "mean_stayers": 2.65,
+      "cohens_d": 0.118,
+      "effect": "negligible",
+      "p_value": 0.11633,
       "significant": false
     },
     {
       "feature": "Years since last promotion",
-      "mean_leavers": 1.71,
-      "mean_stayers": 1.72,
-      "cohens_d": -0.003,
+      "mean_leavers": 1.95,
+      "mean_stayers": 2.23,
+      "cohens_d": -0.09,
       "effect": "negligible",
-      "p_value": 0.9627,
+      "p_value": 0.19865,
       "significant": false
     }
   ],
   "categorical_tests": [
     {
       "driver": "Overtime",
-      "chi2": 66.4,
+      "chi2": 87.56,
       "dof": 1,
-      "cramers_v": 0.213,
+      "cramers_v": 0.244,
       "effect": "small",
       "p_value": 0.0,
       "significant": true
     },
     {
-      "driver": "Work-life balance",
-      "chi2": 27.27,
+      "driver": "Stock option level",
+      "chi2": 60.6,
       "dof": 3,
-      "cramers_v": 0.136,
+      "cramers_v": 0.203,
+      "effect": "small",
+      "p_value": 0.0,
+      "significant": true
+    },
+    {
+      "driver": "Marital status",
+      "chi2": 46.16,
+      "dof": 2,
+      "cramers_v": 0.177,
+      "effect": "small",
+      "p_value": 0.0,
+      "significant": true
+    },
+    {
+      "driver": "Job involvement",
+      "chi2": 28.49,
+      "dof": 3,
+      "cramers_v": 0.139,
+      "effect": "small",
+      "p_value": 0.0,
+      "significant": true
+    },
+    {
+      "driver": "Business travel",
+      "chi2": 24.18,
+      "dof": 2,
+      "cramers_v": 0.128,
       "effect": "small",
       "p_value": 1e-05,
       "significant": true
     },
     {
-      "driver": "Job satisfaction",
-      "chi2": 24.23,
-      "dof": 3,
-      "cramers_v": 0.128,
-      "effect": "small",
-      "p_value": 2e-05,
-      "significant": true
-    },
-    {
-      "driver": "Marital status",
-      "chi2": 21.69,
-      "dof": 2,
-      "cramers_v": 0.121,
-      "effect": "small",
-      "p_value": 2e-05,
-      "significant": true
-    },
-    {
-      "driver": "Job involvement",
-      "chi2": 11.53,
-      "dof": 3,
-      "cramers_v": 0.089,
-      "effect": "negligible",
-      "p_value": 0.00918,
-      "significant": true
-    },
-    {
       "driver": "Environment satisfaction",
-      "chi2": 8.21,
+      "chi2": 22.5,
       "dof": 3,
-      "cramers_v": 0.075,
-      "effect": "negligible",
-      "p_value": 0.04186,
+      "cramers_v": 0.124,
+      "effect": "small",
+      "p_value": 5e-05,
       "significant": true
     },
     {
-      "driver": "Business travel",
-      "chi2": 8.03,
-      "dof": 2,
-      "cramers_v": 0.074,
-      "effect": "negligible",
-      "p_value": 0.01803,
+      "driver": "Job satisfaction",
+      "chi2": 17.51,
+      "dof": 3,
+      "cramers_v": 0.109,
+      "effect": "small",
+      "p_value": 0.00056,
       "significant": true
     },
     {
-      "driver": "Stock option level",
-      "chi2": 3.39,
+      "driver": "Work-life balance",
+      "chi2": 16.33,
       "dof": 3,
-      "cramers_v": 0.048,
-      "effect": "negligible",
-      "p_value": 0.33571,
-      "significant": false
+      "cramers_v": 0.105,
+      "effect": "small",
+      "p_value": 0.00097,
+      "significant": true
     }
   ],
   "logistic_regression": {
     "fit": {
       "observations": 1470,
-      "pseudo_r2_mcfadden": 0.202,
+      "pseudo_r2_mcfadden": 0.266,
       "llr_p_value": 0.0
     },
     "odds_ratios": [
       {
-        "term": "Works overtime",
-        "odds_ratio": 3.349,
-        "or_low": 2.433,
-        "or_high": 4.608,
-        "p_value": 0.0,
-        "significant": true
-      },
-      {
-        "term": "Single (vs married)",
-        "odds_ratio": 2.292,
-        "or_low": 1.626,
-        "or_high": 3.231,
-        "p_value": 0.0,
-        "significant": true
-      },
-      {
         "term": "Travels frequently",
-        "odds_ratio": 1.274,
-        "or_low": 0.698,
-        "or_high": 2.323,
-        "p_value": 0.4303,
-        "significant": false
-      },
-      {
-        "term": "Years since promotion (per year)",
-        "odds_ratio": 1.221,
-        "or_low": 1.09,
-        "or_high": 1.367,
-        "p_value": 0.00054,
+        "odds_ratio": 5.442,
+        "or_low": 2.552,
+        "or_high": 11.603,
+        "p_value": 1e-05,
         "significant": true
       },
       {
-        "term": "Prior employers (per company)",
-        "odds_ratio": 1.15,
-        "or_low": 1.034,
-        "or_high": 1.279,
-        "p_value": 0.01011,
-        "significant": true
-      },
-      {
-        "term": "Divorced (vs married)",
-        "odds_ratio": 1.111,
-        "or_low": 0.719,
-        "or_high": 1.715,
-        "p_value": 0.63548,
-        "significant": false
-      },
-      {
-        "term": "Commute distance (per km)",
-        "odds_ratio": 1.035,
-        "or_low": 1.014,
-        "or_high": 1.057,
-        "p_value": 0.00123,
-        "significant": true
-      },
-      {
-        "term": "Age (per year)",
-        "odds_ratio": 0.964,
-        "or_low": 0.945,
-        "or_high": 0.982,
-        "p_value": 0.00015,
-        "significant": true
-      },
-      {
-        "term": "Monthly income (per $1k)",
-        "odds_ratio": 0.93,
-        "or_low": 0.897,
-        "or_high": 0.965,
-        "p_value": 0.00011,
-        "significant": true
-      },
-      {
-        "term": "Stock option level (per level)",
-        "odds_ratio": 0.886,
-        "or_low": 0.734,
-        "or_high": 1.068,
-        "p_value": 0.204,
-        "significant": false
-      },
-      {
-        "term": "Tenure (per year)",
-        "odds_ratio": 0.82,
-        "or_low": 0.769,
-        "or_high": 0.875,
+        "term": "Works overtime",
+        "odds_ratio": 5.397,
+        "or_low": 3.837,
+        "or_high": 7.592,
         "p_value": 0.0,
         "significant": true
       },
       {
         "term": "Travels rarely",
-        "odds_ratio": 0.816,
-        "or_low": 0.477,
-        "or_high": 1.397,
-        "p_value": 0.45872,
+        "odds_ratio": 2.446,
+        "or_low": 1.206,
+        "or_high": 4.962,
+        "p_value": 0.01317,
+        "significant": true
+      },
+      {
+        "term": "Single (vs married)",
+        "odds_ratio": 2.177,
+        "or_low": 1.383,
+        "or_high": 3.426,
+        "p_value": 0.00078,
+        "significant": true
+      },
+      {
+        "term": "Years since promotion (per year)",
+        "odds_ratio": 1.207,
+        "or_low": 1.118,
+        "or_high": 1.304,
+        "p_value": 0.0,
+        "significant": true
+      },
+      {
+        "term": "Prior employers (per company)",
+        "odds_ratio": 1.145,
+        "or_low": 1.07,
+        "or_high": 1.226,
+        "p_value": 0.0001,
+        "significant": true
+      },
+      {
+        "term": "Commute distance (per km)",
+        "odds_ratio": 1.039,
+        "or_low": 1.019,
+        "or_high": 1.059,
+        "p_value": 0.00012,
+        "significant": true
+      },
+      {
+        "term": "Age (per year)",
+        "odds_ratio": 0.957,
+        "or_low": 0.936,
+        "or_high": 0.978,
+        "p_value": 9e-05,
+        "significant": true
+      },
+      {
+        "term": "Monthly income (per $1k)",
+        "odds_ratio": 0.912,
+        "or_low": 0.861,
+        "or_high": 0.967,
+        "p_value": 0.00183,
+        "significant": true
+      },
+      {
+        "term": "Tenure (per year)",
+        "odds_ratio": 0.886,
+        "or_low": 0.841,
+        "or_high": 0.933,
+        "p_value": 0.0,
+        "significant": true
+      },
+      {
+        "term": "Stock option level (per level)",
+        "odds_ratio": 0.843,
+        "or_low": 0.636,
+        "or_high": 1.116,
+        "p_value": 0.23309,
         "significant": false
       },
       {
-        "term": "Environment satisfaction (per point)",
-        "odds_ratio": 0.778,
-        "or_low": 0.676,
-        "or_high": 0.895,
-        "p_value": 0.00046,
+        "term": "Divorced (vs married)",
+        "odds_ratio": 0.795,
+        "or_low": 0.484,
+        "or_high": 1.305,
+        "p_value": 0.36354,
+        "significant": false
+      },
+      {
+        "term": "Work-life balance (per point)",
+        "odds_ratio": 0.743,
+        "or_low": 0.593,
+        "or_high": 0.931,
+        "p_value": 0.00986,
         "significant": true
       },
       {
         "term": "Job satisfaction (per point)",
-        "odds_ratio": 0.732,
-        "or_low": 0.637,
-        "or_high": 0.841,
-        "p_value": 1e-05,
+        "odds_ratio": 0.701,
+        "or_low": 0.605,
+        "or_high": 0.813,
+        "p_value": 0.0,
+        "significant": true
+      },
+      {
+        "term": "Environment satisfaction (per point)",
+        "odds_ratio": 0.685,
+        "or_low": 0.59,
+        "or_high": 0.796,
+        "p_value": 0.0,
         "significant": true
       },
       {
         "term": "Job involvement (per point)",
-        "odds_ratio": 0.685,
-        "or_low": 0.556,
-        "or_high": 0.845,
-        "p_value": 0.0004,
-        "significant": true
-      },
-      {
-        "term": "Work-life balance (per point)",
-        "odds_ratio": 0.578,
-        "or_low": 0.464,
-        "or_high": 0.719,
+        "odds_ratio": 0.558,
+        "or_low": 0.445,
+        "or_high": 0.699,
         "p_value": 0.0,
         "significant": true
       }

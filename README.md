@@ -12,20 +12,20 @@ BI model, and a Databricks lakehouse.
 
 ---
 
-## Headline measures (seeded sample, trailing 12 months)
+## Headline measures (IBM HR dataset, trailing 12 months)
 
 | Measure | Value |
 |---|---|
-| Annualised turnover | **18.3%** |
+| Annualised turnover | **17.5%** |
 | Absenteeism rate | **1.3%** of scheduled hours (3.2 days per employee) |
-| Quality of Hire index | **73.8 / 100** |
+| Quality of Hire index | **74.8 / 100** |
 | Average time to fill | **45 days** |
 
 ![What drives attrition](reports/figures/fig_odds_ratios.png)
 
-The strongest single driver of leaving is **overtime** (3.4x the odds), ahead of
-being single and of promotion stagnation, while job attitudes and tenure are the
-strongest protective factors. Full write-up in
+The strongest drivers of leaving are **frequent business travel and overtime** (both
+more than 5x the odds), ahead of being single and of promotion stagnation, while job
+involvement, the other job attitudes, and tenure are the strongest protective factors. Full write-up in
 **[reports/executive_summary.md](reports/executive_summary.md)** and the narrative
 version in **[reports/blog_post.md](reports/blog_post.md)**.
 
@@ -115,14 +115,14 @@ on the full set of drivers and reports each as an odds ratio with a 95 percent
 confidence interval. Every bivariate relationship is also tested on its own with a
 chi square test (categorical, Cramer V effect size) or a Welch t test (continuous,
 Cohen d effect size), so each claim comes with both significance and magnitude. The
-model reaches a McFadden pseudo R squared of about 0.20.
+model reaches a McFadden pseudo R squared of about 0.27.
 
 | Raises the odds of leaving | OR | Lowers the odds of leaving | OR |
 |---|---|---|---|
-| Works overtime | 3.35 | Work-life balance (per point) | 0.58 |
-| Single (vs married) | 2.29 | Job involvement (per point) | 0.69 |
-| Years since promotion (per year) | 1.22 | Job satisfaction (per point) | 0.73 |
-| Prior employers (per company) | 1.15 | Tenure (per year) | 0.82 |
+| Travels frequently | 5.44 | Job involvement (per point) | 0.56 |
+| Works overtime | 5.40 | Job satisfaction (per point) | 0.70 |
+| Single (vs married) | 2.18 | Work-life balance (per point) | 0.74 |
+| Years since promotion (per year) | 1.21 | Tenure (per year) | 0.89 |
 
 Read through an I-O Psychology lens, the pattern matches established withdrawal
 models: strain and work-life conflict (overtime, travel) push people out, job
