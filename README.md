@@ -169,7 +169,7 @@ databricks/ PySpark + Delta + Databricks SQL notebooks
 powerbi/    DAX measures for the Power BI dashboard
 reports/    executive_summary.md, blog_post.md, metrics.json, figures/
 dashboard/  Power BI extracts (gold marts + star schema), generated
-data/        raw and processed, generated and git ignored
+data/        raw and processed, generated and not committed
 ```
 
 ## Tech stack
